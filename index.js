@@ -282,6 +282,16 @@ function showAttorneys() {
         document.getElementById("attorneyContainer").style.opacity = 0
         document.getElementById("attorneyContainer").style.pointerEvents = "none"
     }
+}
+
+function showRights() {
+        if (document.getElementById("attorneyContainer").style.opacity == 0) {
+            document.getElementById("attorneyContainer").style.opacity = 1
+            document.getElementById("attorneyContainer").style.pointerEvents = ""
+        } else {
+            document.getElementById("attorneyContainer").style.opacity = 0
+            document.getElementById("attorneyContainer").style.pointerEvents = "none"
+        }
 } 
 
 
